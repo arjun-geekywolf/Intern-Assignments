@@ -1,0 +1,176 @@
+1.Check whether a number is even or odd
+
+
+print "Enter a number"
+input number
+
+if number == 0 then
+  print "number is zero"
+else if number MOD 2 == 0 then
+  print "Even Number"
+
+else
+  print "Odd number"
+
+
+2.Find the largest of three numbers
+
+Print "Enter Three numbers"
+input num1, num2, num3
+
+if num1 > num2 and num1 > num3 then
+  print "num1 is the largest"
+
+else if num2 > num3 then
+  print "num2 is the largest"
+
+else
+  print "num3 is the largest"
+
+
+3.Display the multiplication table for any number
+
+Print "Enter a number"
+input num
+
+set n=1
+loop while n <= 10 
+  print "{n} x {num} = {n*num}"
+  n = n+1
+end loop 
+
+4.Calculate the sum of first N natural numbers
+
+Print "Enter the number"
+input n
+
+set sum = 0
+set i = 1
+
+loop while i <=n
+  sum = sum+i
+  i = i+1
+end loop
+
+print "Sum is {sum}"
+
+
+5.Find the factorial of a number
+
+print "Enter a number"
+input num
+
+set fact = 1
+set i = 1
+
+loop while i <= num
+  fact = fact*i
+  i=i+1
+end loop
+
+print "factorial is {fact}"
+
+
+6.Calculate the average and grade of 5 subject marks
+
+print "Enter the marks of 5 subjects (out of 100)"
+input m1, m2, m3, m4, m5
+
+set sum=m1+m2+m3+m4+m5
+set avg = sum/5
+print "Average is {avg}"
+
+if avg >= 90 then
+  print "A grade"
+else if avg >= 80 then
+  print "B grade"
+else if avg >= 70 then
+  print "C grade"
+else if avg >= 60 then
+  print "D grade"
+else 
+  print "Failed"
+
+
+7.Find the largest and smallest element in an array
+
+Print "Enter the array elements"
+input array arr
+
+sort arr in ascending order
+
+print "smallest number is { arr[0] }"
+print "Largest number is { arr[-1] }"
+
+
+8.Count how many even and odd numbers are in a list
+
+print "Enter the list of numbers"
+input array arr
+
+create function evenOrOdd(num)
+   if num Mod 2 == 0 then
+   return true
+   else
+   return false
+
+set evenCount = 0
+set oddCount = 0
+set i = 0
+loop while i < sizeOf(arr)
+  if arr[i] == 0 then
+    continue //skip current iteration
+
+  if evenOrOdd(arr[i]) == true then 
+     evenCount = evenCount + 1
+  else
+    oddCount = oddCount+1
+
+  i=i+1
+end loop
+
+print "Count of even numbers = {evenCount}"
+print "Count of odd numbers = {oddCount}"
+
+
+9.Generate a pattern like a pyramid or triangle
+
+set i = 0
+loop while i<5
+  set j = 0
+  loop while j<=i
+    print "*"
+    j=j+1
+  end loop
+print newline
+i=i+1
+end loop
+
+
+10.Find the second largest number in a list
+
+print "Enter the list"
+input array arr
+
+sort arr in descending order
+print "the second largest number is {arr[1]}"
+
+
+11.Find the sum of diagonal elements in a 2D matrix
+
+print "Enter the matrix size"
+input size
+
+print "enter the 2d matrix"
+input array arr[size][size]
+
+
+set diagonalSum=0
+set i=0
+
+loop while i < size
+  diagonalSum=diagonalSum+arr[i][i]
+  i++
+end loop
+
+print "Diagonal sum is {diagonalSum}"
