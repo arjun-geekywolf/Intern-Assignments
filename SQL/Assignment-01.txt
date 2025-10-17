@@ -1,0 +1,85 @@
+1.CREATE TABLE: Creates an Employees table with columns for EmployeeID, FirstName, LastName, Department, and Salary.
+  
+  CREATE TABLE employees (empId int PRIMARY KEY IDENTITY(1000,1), firstName varchar(20) NOT NULL, LastName varchar(20) NOT NULL, Dept varchar(20) NOT NULL, salary decimal(10,2) CHECK (salary > 0));
+
+
+2.INSERT: Adds three employee records to the table.
+  
+  INSERT INTO employees VALUES (1001, 'Virat', 'Kohli', 'Marketing', 2000);
+  INSERT INTO employees VALUES (1002, 'Christiano', 'Ronaldo', 'IT', 3000);
+  INSERT INTO employees VALUES (1003, 'Rohit', 'Sharma', 'IT', 1000);
+
+
+3.Select all columns and rows
+
+  SELECT * FROM employees;
+
+
+4.Select specific columns
+  
+  SELECT firstName,salary FROM employees;
+
+5.Select with a WHERE clause to filter results
+  
+  SELECT firstName,salary FROM employees WHERE empId=1001;
+
+6.What is the purpose of the IDENTITY keyword in the CREATE TABLE statement?
+
+  Used to add autoincrement property to a column
+
+
+7.Write a SELECT statement to retrieve only the FirstName and Salary of all employees.
+
+  SELECT firstName,salary FROM employees;
+
+8.How would you modify the existing UPDATE statement to give all employees in the IT department a 10% raise
+
+  UPDATE employees set salary = salary*1.1 where Dept = 'IT';
+
+
+9.Write a SELECT statement to find the highest salary in the Employees table
+  
+  SELECT max(salary) FROM employees;
+
+
+10.How would you add a new column named "HireDate" of type DATE to the Employees table?
+
+  ALTER TABLE employees ADD (HireDate DATE);
+
+
+11.Write an INSERT statement to add a new employee named "Sarah Brown" in the "Marketing" department with a salary of 72000.00.
+
+  INSERT INTO employees VALUES (1004,'Sarah','Brown','Marketing',72000.00,'2025-10-16')
+
+
+12.How would you modify the table to ensure that the Salary column cannot contain negative values?
+  
+  ALTER TABLE employees ADD CONSTRAINT salary_positive CHECK(salary>=0)
+
+
+13.How would you add a UNIQUE constraint to the Employees table to ensure that no two employees can have the same email address
+
+  ALTER TABLE employees ADD CONSTRAINT unique_salary UNIQUE(salary)
+
+
+14.How would you add a UNIQUE constraint to the Employees table to ensure that no two employees can have the same email address
+  
+  ALTER TABLE employees ADD email varchar(100)
+
+  UPDATE employees 
+	SET email =
+        CASE empId
+            When 1001 THEN 'virat@gmail.com'
+            When 1002 THEN 'cr7@gmail.com'
+            when 1003 then 'rohit@gmail.com'
+            when 1004 then 'sarah@gmail.com'
+        END
+	Where email IS NULL
+
+  ALTER TABLE employees ADD CONSTRAINT unique_email UNIQUE(email)
+
+15.Write an ALTER TABLE statement to add an "Email" column to the Employees table with a UNIQUE constraint that allows NULL values
+  
+  CREATE UNIQUE NONCLUSTERED INDEX nullfilter 
+  ON employees(email) 
+  WHERE email IS NOT NULL
