@@ -1,6 +1,6 @@
 1.CREATE TABLE: Creates an Employees table with columns for EmployeeID, FirstName, LastName, Department, and Salary.
   
-  CREATE TABLE employees (empId int, firstName varchar(20), LastName varchar(20), Dept varchar(20), salary decimal(10,2));
+  CREATE TABLE employees (empId int PRIMARY KEY IDENTITY(1000,1), firstName varchar(20) NOT NULL, LastName varchar(20) NOT NULL, Dept varchar(20) NOT NULL, salary decimal(10,2) CHECK (salary > 0));
 
 
 2.INSERT: Adds three employee records to the table.
