@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CompanyA">
+      <HintPath>..\CompanyA\bin\Debug\net8.0\CompanyA.dll</HintPath>
+    </Reference>
+    <Reference Include="CompanyB">
+      <HintPath>..\CompanyB\bin\Debug\net8.0\CompanyB.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
