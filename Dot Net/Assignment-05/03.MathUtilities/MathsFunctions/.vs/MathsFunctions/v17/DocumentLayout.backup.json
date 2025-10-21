@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arjun.c\\source\\repos\\MathsFunctions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B82B6B43-BFA8-45B5-8043-3B1BAF1EB795}|MathsFunctions.csproj|c:\\users\\arjun.c\\source\\repos\\mathsfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82B6B43-BFA8-45B5-8043-3B1BAF1EB795}|MathsFunctions.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEF2960-FA80-4B53-A45E-802A55BD9647}|..\\MathUtilities\\MathUtilities.csproj|c:\\users\\arjun.c\\source\\repos\\mathutilities\\math.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "math.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\MathUtilities\\math.cs",
+              "RelativeDocumentMoniker": "..\\MathUtilities\\math.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\MathUtilities\\math.cs",
+              "RelativeToolTip": "..\\MathUtilities\\math.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T06:42:48.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\MathsFunctions\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\MathsFunctions\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T06:41:14.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
