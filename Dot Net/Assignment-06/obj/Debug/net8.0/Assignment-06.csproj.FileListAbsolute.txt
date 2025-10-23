@@ -1,0 +1,14 @@
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\bin\Debug\net8.0\Assignment-06.exe
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\bin\Debug\net8.0\Assignment-06.deps.json
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\bin\Debug\net8.0\Assignment-06.runtimeconfig.json
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\bin\Debug\net8.0\Assignment-06.dll
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\bin\Debug\net8.0\Assignment-06.pdb
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\obj\Debug\net8.0\Assignment-06.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\obj\Debug\net8.0\Assignment-06.AssemblyInfoInputs.cache
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\obj\Debug\net8.0\Assignment-06.AssemblyInfo.cs
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\obj\Debug\net8.0\Assignment-06.csproj.CoreCompileInputs.cache
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\obj\Debug\net8.0\Assignment-06.dll
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\obj\Debug\net8.0\refint\Assignment-06.dll
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\obj\Debug\net8.0\Assignment-06.pdb
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\obj\Debug\net8.0\Assignment-06.genruntimeconfig.cache
+C:\Users\arjun.c\source\repos\TempConverter\Assignment-06\obj\Debug\net8.0\ref\Assignment-06.dll
