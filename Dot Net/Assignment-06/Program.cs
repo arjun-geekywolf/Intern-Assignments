@@ -52,7 +52,7 @@ using Assignment_06;
 
 
 
-//Question 5
+//-----------------------Question 5-----------------------
 
 //ListString listString = new ListString();
 
@@ -60,20 +60,11 @@ using Assignment_06;
 //listString.lengthGreaterThan4();
 
 
-//Employee e1 = new Employee("arjun", 10000, "Permanent");
 
+//-----------------------Question 6-----------------------
 
-//e1.Display();
-//e2.Display();
-
-List<Employee> employees = new List<Employee>();
+List <Employee> employees = new List<Employee>();
 EmployeeCollection employeeCollection = new EmployeeCollection();
-
-//employeeCollection.AddEmployee();
-//employeeCollection.AddEmployee();
-//employeeCollection.DisplayAll();
-//employeeCollection.Search();
-//employeeCollection.RemoveEmployee();
 
 
 bool flag = true;
