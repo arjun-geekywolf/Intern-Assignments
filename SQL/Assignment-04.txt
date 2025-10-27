@@ -1,0 +1,235 @@
+-----------------------------------------------------------------------------
+----------------------------Healthcare System-----------------------------
+-----------------------------------------------------------------------------
+
+-- 1. List all patients and their appointments, including patients who have never had an appointment.
+
+    SELECT p.PatientID, p.PatientName, a.AppointmentID, a.AppointmentDate, a.DoctorID
+    FROM Patients p
+    LEFT JOIN Appointments a ON p.PatientID = a.PatientID;
+
+
+-- 2. Display all doctors and their scheduled appointments, including doctors without any appointments.
+
+    SELECT d.DoctorID, d.DoctorName, a.AppointmentID, a.AppointmentDate, a.PatientID
+    FROM Doctors d
+    LEFT JOIN Appointments a ON d.DoctorID = a.DoctorID;
+
+
+-- 3. Show all medications and the patients they've been prescribed to, including medications that haven't been prescribed.
+
+    SELECT m.MedicationID, m.MedicationName, p.PatientID, p.PatientName
+    FROM Medications m
+    LEFT JOIN Prescriptions pr ON m.MedicationID = pr.MedicationID
+    LEFT JOIN Patients p ON pr.PatientID = p.PatientID;
+
+
+-- 4. List all possible patient-doctor combinations, regardless of whether an appointment has occurred.
+
+    SELECT p.PatientID, p.PatientName, d.DoctorID, d.DoctorName
+    FROM Patients p
+    CROSS JOIN Doctors d;
+
+
+-- 5. Display all prescriptions with patient and medication information, including prescriptions where either the patient or medication information is missing.
+
+    SELECT pr.PrescriptionID, pr.PrescriptionDate, p.PatientID, p.PatientName, m.MedicationID, m.MedicationName
+    FROM Prescriptions pr
+    LEFT JOIN Patients p ON pr.PatientID = p.PatientID
+    LEFT JOIN Medications m ON pr.MedicationID = m.MedicationID;
+
+
+-- 6. Show all patients who have never been prescribed any medication, along with their appointment history.
+
+    SELECT p.PatientID, p.PatientName, a.AppointmentID, a.AppointmentDate, a.DoctorID
+    FROM Patients p
+    LEFT JOIN Prescriptions pr ON p.PatientID = pr.PatientID
+    LEFT JOIN Appointments a ON p.PatientID = a.PatientID
+    WHERE pr.PrescriptionID IS NULL;
+
+
+-- 7. List all doctors who have appointments in the next week, along with the patients they're scheduled to see.
+
+    SELECT d.DoctorID, d.DoctorName, a.AppointmentID, a.AppointmentDate, p.PatientID, p.PatientName
+    FROM Doctors d
+    INNER JOIN Appointments a ON d.DoctorID = a.DoctorID
+    INNER JOIN Patients p ON a.PatientID = p.PatientID
+    WHERE a.AppointmentDate BETWEEN DATEADD(DAY, 1, GETDATE()) AND DATEADD(DAY, 7, GETDATE());
+
+
+-- 8. Display all medications prescribed to patients over 60 years old, including medications not prescribed to this age group.
+    
+    SELECT m.MedicationID, m.MedicationName, p.PatientID, p.PatientName
+    FROM Medications m
+    LEFT JOIN Prescriptions pr ON m.MedicationID = pr.MedicationID
+    LEFT JOIN Patients p ON pr.PatientID = p.PatientID
+    WHERE p.DateOfBirth <= DATEADD(YEAR, -60, GETDATE()) OR p.PatientID IS NULL;
+
+
+-- 9. Show all appointments from last year and any associated prescription information.
+
+    SELECT a.AppointmentID, a.AppointmentDate, a.PatientID, a.DoctorID, pr.PrescriptionID, pr.PrescriptionDate, pr.MedicationID
+    FROM Appointments a
+    LEFT JOIN Prescriptions pr ON a.PatientID = pr.PatientID
+    WHERE a.AppointmentDate BETWEEN '2024-01-01' AND '2024-12-31';
+
+
+-- 10. List all possible specialty-medication combinations, regardless of whether a doctor of that specialty has prescribed that medication.
+
+    SELECT d.Specialty, m.MedicationID, m.MedicationName
+    FROM Doctors d
+    CROSS JOIN Medications m;
+
+
+-----------------------------------------------------------------------------
+---------------------------- E-commerce Platform-----------------------------
+-----------------------------------------------------------------------------
+
+
+-- 1. List all products with their category names, including products without a category.
+
+    SELECT ProductName, CategoryName FROM Products p LEFT JOIN Categories c ON p.CategoryID = c.CategoryID
+
+
+-- 2. Display all customers and their order history, including customers who haven't placed any orders.
+
+    SELECT c.CustomerName, o.OrderID FROM Customers c LEFT JOIN Orders o ON c.CustomerID = o.CustomerID
+
+
+-- 3. Show all categories and the products in each category, including categories without any products.
+
+    SELECT c.CategoryName, p.ProductName FROM Categories c LEFT JOIN Products p ON c.CategoryID = p.CategoryID
+
+
+-- 4. List all possible customer-product combinations, regardless of whether a purchase has occurred.
+
+    SELECT c.CustomerName, p.ProductName FROM Customers c CROSS JOIN Products p
+
+
+-- 5. Display all orders with customer and product information, including orders where either the customer or product information is missing.
+
+    SELECT o.OrderID, c.CustomerName, p.ProductName FROM Orders o LEFT JOIN Customers c ON o.CustomerID = c.CustomerID LEFT JOIN OrderDetails od ON o.OrderID = od.OrderID LEFT JOIN Products p ON od.ProductID = p.ProductID
+
+
+-- 6. Show all products that have never been ordered, along with their category information.
+
+    SELECT p.ProductName, c.CategoryName
+    FROM Products p
+    LEFT JOIN Categories c ON p.CategoryID = c.CategoryID
+    LEFT JOIN OrderDetails od ON p.ProductID = od.ProductID
+    WHERE od.OrderDetailID IS NULL
+
+-- 7. List all customers who have placed orders in the last week, along with the products they've purchased.
+
+    SELECT c.CustomerID, c.CustomerName, p.ProductID, p.ProductName
+    FROM Customers c
+    INNER JOIN Orders o ON c.CustomerID = o.CustomerID
+    INNER JOIN OrderDetails od ON o.OrderID = od.OrderID
+    INNER JOIN Products p ON od.ProductID = p.ProductID
+    WHERE o.OrderDate >= DATEADD(DAY, -7, GETDATE());
+
+
+-- 8. Display all categories with products priced over $100, including categories without such products.
+
+    SELECT c.CategoryName, p.ProductName
+    FROM Categories c
+    LEFT JOIN Products p ON c.CategoryID = p.CategoryID AND p.Price > 100
+
+
+-- 9. Show all orders placed before 2023 and any associated product information.
+
+    SELECT o.OrderID, p.ProductName
+    FROM Orders o
+    LEFT JOIN OrderDetails od ON o.OrderID = od.OrderID
+    LEFT JOIN Products p ON od.ProductID = p.ProductID
+    WHERE o.OrderDate < '2023-01-01'
+
+
+-- 10. List all possible category-customer combinations, regardless of whether the customer has purchased a product from that category.
+
+    SELECT c.CategoryName, cu.CustomerName
+    FROM Categories c
+    CROSS JOIN Customers cu;
+
+
+-----------------------------------------------------------------------------
+----------------------------Library Management System------------------------
+-----------------------------------------------------------------------------
+
+-- 1. List all books along with their authors, including books without assigned authors.
+
+    SELECT b.BookID, b.Title, b.PublicationYear, a.AuthorID, a.AuthorName
+    FROM Books b
+    LEFT JOIN Authors a ON b.AuthorID = a.AuthorID;
+
+
+-- 2. Display all patrons and their loan history, including patrons who have never borrowed a book.
+
+    SELECT p.PatronID, p.PatronName, p.MembershipDate, l.LoanID, l.BookID, l.LoanDate, l.ReturnDate
+    FROM Patrons p
+    LEFT JOIN Loans l ON p.PatronID = l.PatronID;
+
+
+-- 3. Show all authors and the books they've written, including authors who haven't written any books in our collection.
+
+    SELECT a.AuthorID, a.AuthorName, a.BirthYear, b.BookID, b.Title
+    FROM Authors a
+    LEFT JOIN Books b ON a.AuthorID = b.AuthorID;
+
+
+-- 4. List all possible book-patron combinations, regardless of whether a loan has occurred.
+
+    SELECT b.BookID, b.Title, p.PatronID, p.PatronName
+    FROM Books b
+    CROSS JOIN Patrons p;
+
+
+-- 5. Display all loans with book and patron information, including loans where either the book or patron information is missing.
+
+    SELECT l.LoanID, l.LoanDate, l.ReturnDate, b.BookID, b.Title, p.PatronID, p.PatronName
+    FROM Loans l
+    LEFT JOIN Books b ON l.BookID = b.BookID
+    LEFT JOIN Patrons p ON l.PatronID = p.PatronID;
+
+
+-- 6. Show all books that have never been loaned, along with their author information.
+
+    SELECT b.BookID, b.Title, b.PublicationYear, a.AuthorID, a.AuthorName
+    FROM Books b
+    LEFT JOIN Loans l ON b.BookID = l.BookID
+    LEFT JOIN Authors a ON b.AuthorID = a.AuthorID
+    WHERE l.LoanID IS NULL;
+
+
+-- 7. List all patrons who have borrowed books in the last month, along with the books they've borrowed.
+
+    SELECT p.PatronID, p.PatronName, b.BookID, b.Title, l.LoanDate, l.ReturnDate
+    FROM Patrons p
+    INNER JOIN Loans l ON p.PatronID = l.PatronID
+    INNER JOIN Books b ON l.BookID = b.BookID
+    WHERE l.LoanDate >= DATEADD(DAY, -30, GETDATE()) 
+    AND l.LoanDate <= GETDATE();
+
+
+-- 8. Display all authors born after 1970 and their books, including those without any books in our collection.
+
+    SELECT a.AuthorID, a.AuthorName, a.BirthYear, b.BookID, b.Title
+    FROM Authors a
+    LEFT JOIN Books b ON a.AuthorID = b.AuthorID
+    WHERE a.BirthYear > 1970;
+
+
+-- 9. Show all books published before 2000 and any associated loan information.
+
+    SELECT b.BookID, b.Title, b.PublicationYear, l.LoanID, l.PatronID, l.LoanDate, l.ReturnDate
+    FROM Books b
+    LEFT JOIN Loans l ON b.BookID = l.BookID
+    WHERE b.PublicationYear < 2000;
+
+
+-- 10. List all possible author-patron combinations, regardless of whether the patron has borrowed a book by that author.
+
+    SELECT a.AuthorID, a.AuthorName, a.BirthYear, p.PatronID, p.PatronName, p.MembershipDate
+    FROM Authors a
+    CROSS JOIN Patrons p;
+
