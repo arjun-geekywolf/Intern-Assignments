@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7ECA6B19-97AC-4BC1-9EE9-B997298105C5}|Banking-EFCore.csproj|c:\\users\\arjun.c\\source\\repos\\banking-efcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ECA6B19-97AC-4BC1-9EE9-B997298105C5}|Banking-EFCore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ECA6B19-97AC-4BC1-9EE9-B997298105C5}|Banking-EFCore.csproj|c:\\users\\arjun.c\\source\\repos\\banking-efcore\\accountoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ECA6B19-97AC-4BC1-9EE9-B997298105C5}|Banking-EFCore.csproj|solutionrelative:accountoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ECA6B19-97AC-4BC1-9EE9-B997298105C5}|Banking-EFCore.csproj|c:\\users\\arjun.c\\source\\repos\\banking-efcore\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ECA6B19-97AC-4BC1-9EE9-B997298105C5}|Banking-EFCore.csproj|solutionrelative:customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ECA6B19-97AC-4BC1-9EE9-B997298105C5}|Banking-EFCore.csproj|c:\\users\\arjun.c\\source\\repos\\banking-efcore\\bankingappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ECA6B19-97AC-4BC1-9EE9-B997298105C5}|Banking-EFCore.csproj|solutionrelative:bankingappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\Migrations\\20251028082052_createddate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251028082052_createddate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\Migrations\\20251028080337_addressadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251028080337_addressadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ECA6B19-97AC-4BC1-9EE9-B997298105C5}|Banking-EFCore.csproj|c:\\users\\arjun.c\\source\\repos\\banking-efcore\\banking-efcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7ECA6B19-97AC-4BC1-9EE9-B997298105C5}|Banking-EFCore.csproj|solutionrelative:banking-efcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountOperations.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\AccountOperations.cs",
+              "RelativeDocumentMoniker": "AccountOperations.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\AccountOperations.cs",
+              "RelativeToolTip": "AccountOperations.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwD4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:40:59.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BankingAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\BankingAppDbContext.cs",
+              "RelativeDocumentMoniker": "BankingAppDbContext.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\BankingAppDbContext.cs",
+              "RelativeToolTip": "BankingAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T06:41:33.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAD0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T06:23:38.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\Customer.cs",
+              "RelativeDocumentMoniker": "Customer.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\Customer.cs",
+              "RelativeToolTip": "Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T06:39:50.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20251028082052_createddate.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\Migrations\\20251028082052_createddate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251028082052_createddate.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\Migrations\\20251028082052_createddate.cs",
+              "RelativeToolTip": "Migrations\\20251028082052_createddate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:20:52.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20251028080337_addressadded.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\Migrations\\20251028080337_addressadded.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251028080337_addressadded.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\Migrations\\20251028080337_addressadded.cs",
+              "RelativeToolTip": "Migrations\\20251028080337_addressadded.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:03:37.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Banking-EFCore",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\Banking-EFCore.csproj",
+              "RelativeDocumentMoniker": "Banking-EFCore.csproj",
+              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Banking-EFCore\\Banking-EFCore.csproj",
+              "RelativeToolTip": "Banking-EFCore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-28T06:32:57.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
