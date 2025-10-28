@@ -1,0 +1,11 @@
+C:\Users\arjun.c\source\repos\ClassLibraries\CompanyA\bin\Debug\net8.0\CompanyA.deps.json
+C:\Users\arjun.c\source\repos\ClassLibraries\CompanyA\bin\Debug\net8.0\CompanyA.dll
+C:\Users\arjun.c\source\repos\ClassLibraries\CompanyA\bin\Debug\net8.0\CompanyA.pdb
+C:\Users\arjun.c\source\repos\ClassLibraries\CompanyA\obj\Debug\net8.0\CompanyA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arjun.c\source\repos\ClassLibraries\CompanyA\obj\Debug\net8.0\CompanyA.AssemblyInfoInputs.cache
+C:\Users\arjun.c\source\repos\ClassLibraries\CompanyA\obj\Debug\net8.0\CompanyA.AssemblyInfo.cs
+C:\Users\arjun.c\source\repos\ClassLibraries\CompanyA\obj\Debug\net8.0\CompanyA.csproj.CoreCompileInputs.cache
+C:\Users\arjun.c\source\repos\ClassLibraries\CompanyA\obj\Debug\net8.0\CompanyA.dll
+C:\Users\arjun.c\source\repos\ClassLibraries\CompanyA\obj\Debug\net8.0\refint\CompanyA.dll
+C:\Users\arjun.c\source\repos\ClassLibraries\CompanyA\obj\Debug\net8.0\CompanyA.pdb
+C:\Users\arjun.c\source\repos\ClassLibraries\CompanyA\obj\Debug\net8.0\ref\CompanyA.dll

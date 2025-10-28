@@ -1,0 +1,11 @@
+C:\Users\arjun.c\source\repos\MathUtilities\bin\Debug\net8.0\MathUtilities.deps.json
+C:\Users\arjun.c\source\repos\MathUtilities\bin\Debug\net8.0\MathUtilities.dll
+C:\Users\arjun.c\source\repos\MathUtilities\bin\Debug\net8.0\MathUtilities.pdb
+C:\Users\arjun.c\source\repos\MathUtilities\obj\Debug\net8.0\MathUtilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arjun.c\source\repos\MathUtilities\obj\Debug\net8.0\MathUtilities.AssemblyInfoInputs.cache
+C:\Users\arjun.c\source\repos\MathUtilities\obj\Debug\net8.0\MathUtilities.AssemblyInfo.cs
+C:\Users\arjun.c\source\repos\MathUtilities\obj\Debug\net8.0\MathUtilities.csproj.CoreCompileInputs.cache
+C:\Users\arjun.c\source\repos\MathUtilities\obj\Debug\net8.0\MathUtilities.dll
+C:\Users\arjun.c\source\repos\MathUtilities\obj\Debug\net8.0\refint\MathUtilities.dll
+C:\Users\arjun.c\source\repos\MathUtilities\obj\Debug\net8.0\MathUtilities.pdb
+C:\Users\arjun.c\source\repos\MathUtilities\obj\Debug\net8.0\ref\MathUtilities.dll

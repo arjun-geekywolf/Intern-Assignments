@@ -1,6 +1,2 @@
 sqldata
 .vs
-bin
-obj
-*.csproj
-*.sln

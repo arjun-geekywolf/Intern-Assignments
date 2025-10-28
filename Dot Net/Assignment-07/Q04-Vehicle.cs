@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assignment_07
+{
+    public class Vehicle
+    {
+        public virtual void ShowType()
+        {
+            Console.WriteLine("This is a vehicle");
+        }
+    }
+
+    public class Car : Vehicle
+    {
+        public new void ShowType()
+        {
+            Console.WriteLine("This is a Car");
+        }
+    }
+}
