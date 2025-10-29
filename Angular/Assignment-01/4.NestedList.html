@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested List</title>
+
+
+    <style>
+
+        body{
+            display: grid;
+            place-items: center;
+            height: 100vh;
+        }
+        div{
+            width: 250px;
+            padding: 10px;
+            margin: 5px 0;
+            background-color: rgb(200, 197, 197);
+            text-align: center;
+            font-weight: bold;
+        }
+
+        li{
+            list-style: none;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <div>1</div>
+            <ul>
+                <li><div>1.1</div></li>
+                <li><div>1.2</div></li>
+            </ul>
+        </li>
+        <li>
+            <div>2</div>
+            <ul>
+                <li><div>2.1</div></li>
+                <li><div>2.2</div></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
