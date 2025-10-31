@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="display: grid;place-items: center; height: 100vh;">
+    <div>
+    <button id="toggleBtn" onclick="toggle()">Show Message</button>
+    <p id="message">Hello World</p>
+    </div>
+    <script>
+        const msg = document.getElementById("message")
+        const btn = document.getElementById("toggleBtn")
+
+        const toggle = () => {
+            if (msg.style.display === "none") {
+                msg.style.display = "block"
+                btn.textContent = "Hide Message"
+            } else {
+                msg.style.display = "none"
+                btn.textContent = "Show Message"
+            }
+        };
+    </script>
+</body>
+</html>
