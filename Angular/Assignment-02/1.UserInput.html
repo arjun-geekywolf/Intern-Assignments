@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Enter text:</h2>
+    <input type="text" id="inputBox">
+    <button onclick="checkType()">Check</button>
+
+    <div id="output"></div>
+
+    <script>
+        function checkType() {
+            let input = document.getElementById("inputBox").value;
+            let type = "string";
+
+            if (input === "") {
+                type = "empty string";
+            }
+            else if (input.toLowerCase() === "true" || input.toLowerCase() === "false") {
+                type = "boolean";
+            }
+            else if (input === "null") {
+                type = "null";
+            }
+            else if (input === "undefined") {
+                type = "undefined";
+            }
+            else if (!isNaN(input) && input.trim() !== "") {
+                type = "number";
+            }
+
+            document.getElementById("output").innerHTML =
+                "typed: " + (input || "(empty)") +
+                "<br>Type: " + type;
+        }
+    </script>
+</body>
+</html>
