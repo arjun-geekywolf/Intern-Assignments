@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="showInfo()">Show Student Info</button>
+    <div id="output"></div>
+
+    <script>
+        const student = {
+            name: "Arjun",
+            age: 23,
+            grade: "10th"
+        };
+
+        function showInfo() {
+            let info = `
+                <h3>Student Details:</h3>
+                <p><strong>Name:</strong> ${student.name}</p>
+                <p><strong>Age:</strong> ${student.age}</p>
+                <p><strong>Grade:</strong> ${student.grade}</p>
+            `;
+
+            document.getElementById("output").innerHTML = info;
+        }
+    </script>
+
+</body>
+</html>
