@@ -1,1 +1,24 @@
-sqldata
+# Build folders
+bin/
+obj/
+
+# User files
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Secrets (don't commit passwords!)
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+secrets.json
+
+# VS Code
+.vscode/
+
+# Database files
+*.db
+*.mdf
+*.ldf
