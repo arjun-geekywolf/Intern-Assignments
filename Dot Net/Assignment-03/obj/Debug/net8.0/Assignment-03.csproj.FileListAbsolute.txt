@@ -1,0 +1,14 @@
+C:\Users\arjun.c\source\repos\Assignment-03\bin\Debug\net8.0\Assignment-03.exe
+C:\Users\arjun.c\source\repos\Assignment-03\bin\Debug\net8.0\Assignment-03.deps.json
+C:\Users\arjun.c\source\repos\Assignment-03\bin\Debug\net8.0\Assignment-03.runtimeconfig.json
+C:\Users\arjun.c\source\repos\Assignment-03\bin\Debug\net8.0\Assignment-03.dll
+C:\Users\arjun.c\source\repos\Assignment-03\bin\Debug\net8.0\Assignment-03.pdb
+C:\Users\arjun.c\source\repos\Assignment-03\obj\Debug\net8.0\Assignment-03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arjun.c\source\repos\Assignment-03\obj\Debug\net8.0\Assignment-03.AssemblyInfoInputs.cache
+C:\Users\arjun.c\source\repos\Assignment-03\obj\Debug\net8.0\Assignment-03.AssemblyInfo.cs
+C:\Users\arjun.c\source\repos\Assignment-03\obj\Debug\net8.0\Assignment-03.csproj.CoreCompileInputs.cache
+C:\Users\arjun.c\source\repos\Assignment-03\obj\Debug\net8.0\Assignment-03.dll
+C:\Users\arjun.c\source\repos\Assignment-03\obj\Debug\net8.0\refint\Assignment-03.dll
+C:\Users\arjun.c\source\repos\Assignment-03\obj\Debug\net8.0\Assignment-03.pdb
+C:\Users\arjun.c\source\repos\Assignment-03\obj\Debug\net8.0\Assignment-03.genruntimeconfig.cache
+C:\Users\arjun.c\source\repos\Assignment-03\obj\Debug\net8.0\ref\Assignment-03.dll
