@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arjun.c\\source\\repos\\Library\\Library.csproj",
-      "projectName": "Library",
-      "projectPath": "C:\\Users\\arjun.c\\source\\repos\\Library\\Library.csproj",
+      "projectUniqueName": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\LibrarySystem.csproj",
+      "projectName": "LibrarySystem",
+      "projectPath": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\LibrarySystem.csproj",
       "packagesPath": "C:\\Users\\arjun.c\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arjun.c\\source\\repos\\Library\\obj\\",
+      "outputPath": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

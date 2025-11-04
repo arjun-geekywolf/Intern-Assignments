@@ -1,8 +1,8 @@
 ﻿
 
-using Library.Books;
-using Library.Members;
-using Library.Transactions;
+using LibrarySystem.Books;
+using LibrarySystem.Members;
+using LibrarySystem.Transactions;
 
 Book book = new Book();
 Magazine magazine = new Magazine();

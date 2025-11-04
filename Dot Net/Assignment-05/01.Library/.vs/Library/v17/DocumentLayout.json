@@ -1,42 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\arjun.c\\source\\repos\\Library\\",
+  "WorkspaceRootPath": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\source\\repos\\library\\books\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\desktop\\assignments\\dot net\\assignment-05\\01.library\\books\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|solutionrelative:books\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\source\\repos\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\source\\repos\\library\\books\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\desktop\\assignments\\dot net\\assignment-05\\01.library\\books\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|solutionrelative:books\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\source\\repos\\library\\books\\magazine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\desktop\\assignments\\dot net\\assignment-05\\01.library\\books\\magazine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|solutionrelative:books\\magazine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\source\\repos\\library\\members\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\desktop\\assignments\\dot net\\assignment-05\\01.library\\members\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|solutionrelative:members\\librarian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\source\\repos\\library\\transactions\\borrowtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|solutionrelative:transactions\\borrowtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\source\\repos\\library\\transactions\\returntrasaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|solutionrelative:transactions\\returntrasaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\source\\repos\\library\\members\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\desktop\\assignments\\dot net\\assignment-05\\01.library\\members\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|solutionrelative:members\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\source\\repos\\library\\library.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|solutionrelative:library.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\desktop\\assignments\\dot net\\assignment-05\\01.library\\transactions\\borrowtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|solutionrelative:transactions\\borrowtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\desktop\\assignments\\dot net\\assignment-05\\01.library\\transactions\\returntrasaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|solutionrelative:transactions\\returntrasaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|c:\\users\\arjun.c\\desktop\\assignments\\dot net\\assignment-05\\01.library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|Library.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|LibrarySystem.csproj|c:\\users\\arjun.c\\desktop\\assignments\\dot net\\assignment-05\\01.library\\librarysystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{093C2A97-CDE1-4CF1-B4BD-6EE98CF099F4}|LibrarySystem.csproj|solutionrelative:librarysystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,11 +52,11 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ReturnTrasaction.cs",
-              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Library\\Transactions\\ReturnTrasaction.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Transactions\\ReturnTrasaction.cs",
               "RelativeDocumentMoniker": "Transactions\\ReturnTrasaction.cs",
-              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Library\\Transactions\\ReturnTrasaction.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Transactions\\ReturnTrasaction.cs",
               "RelativeToolTip": "Transactions\\ReturnTrasaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T04:18:42.83Z",
               "EditorCaption": ""
@@ -65,63 +65,63 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "BorrowTransaction.cs",
-              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Library\\Transactions\\BorrowTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Transactions\\BorrowTransaction.cs",
               "RelativeDocumentMoniker": "Transactions\\BorrowTransaction.cs",
-              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Library\\Transactions\\BorrowTransaction.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Transactions\\BorrowTransaction.cs",
               "RelativeToolTip": "Transactions\\BorrowTransaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T04:18:24.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Librarian.cs",
-              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Library\\Members\\Librarian.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Members\\Librarian.cs",
               "RelativeDocumentMoniker": "Members\\Librarian.cs",
-              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Library\\Members\\Librarian.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Members\\Librarian.cs",
               "RelativeToolTip": "Members\\Librarian.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T04:17:57.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Member.cs",
-              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Library\\Members\\Member.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Members\\Member.cs",
               "RelativeDocumentMoniker": "Members\\Member.cs",
-              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Library\\Members\\Member.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Members\\Member.cs",
               "RelativeToolTip": "Members\\Member.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T04:17:04.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Journal.cs",
-              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Library\\Books\\Journal.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Books\\Journal.cs",
               "RelativeDocumentMoniker": "Books\\Journal.cs",
-              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Library\\Books\\Journal.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Books\\Journal.cs",
               "RelativeToolTip": "Books\\Journal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T04:15:47.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Magazine.cs",
-              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Library\\Books\\Magazine.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Books\\Magazine.cs",
               "RelativeDocumentMoniker": "Books\\Magazine.cs",
-              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Library\\Books\\Magazine.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Books\\Magazine.cs",
               "RelativeToolTip": "Books\\Magazine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T04:15:14.305Z",
               "EditorCaption": ""
@@ -130,11 +130,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Library\\Books\\Book.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Books\\Book.cs",
               "RelativeDocumentMoniker": "Books\\Book.cs",
-              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Library\\Books\\Book.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Books\\Book.cs",
               "RelativeToolTip": "Books\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T04:14:43.142Z",
               "EditorCaption": ""
@@ -142,11 +142,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Library",
-              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Library\\Library.csproj",
-              "RelativeDocumentMoniker": "Library.csproj",
-              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Library\\Library.csproj",
-              "RelativeToolTip": "Library.csproj",
+              "Title": "Library.csproj",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\LibrarySystem.csproj",
+              "RelativeDocumentMoniker": "LibrarySystem.csproj",
+              "ToolTip": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\LibrarySystem.csproj",
+              "RelativeToolTip": "LibrarySystem.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-10-21T04:13:53.958Z",
@@ -154,20 +154,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\arjun.c\\source\\repos\\Library\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\arjun.c\\source\\repos\\Library\\Program.cs",
+              "ToolTip": "C:\\Users\\arjun.c\\Desktop\\Assignments\\Dot Net\\Assignment-05\\01.Library\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T04:08:55.973Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
