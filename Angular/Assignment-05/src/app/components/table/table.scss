@@ -1,0 +1,10 @@
+ table{
+            width: 600px;
+            height: 300px;
+            text-align: left;
+        
+        th, tr td:first-child{
+            background-color: rgba(128, 128, 128, 0.56);
+            font-weight: bold;
+        }
+    }

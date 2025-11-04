@@ -1,0 +1,5 @@
+  <input type="number" [(ngModel)]="year" placeholder="Enter a year" />
+
+  <button type="button" (click)="checkLeapYear()">Check</button>
+
+  <p *ngIf="result !== null">{{ result }}</p>
