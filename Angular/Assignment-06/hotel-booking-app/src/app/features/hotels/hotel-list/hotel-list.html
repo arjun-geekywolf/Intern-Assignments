@@ -1,0 +1,13 @@
+<h2>Hotel List</h2>
+
+<div class="hotel-list-container">
+
+@for (item of hotels; track $index) {
+  <div class="hotel-card">
+    <img [src]="item.imageUrl" alt="{{ item.name }}"/>
+    <h3>{{ item.name }}</h3>
+    <p>{{ item.description }}</p>
+    <button (click)="navigate('hotels/' + item.id)">View Details</button>
+  </div>
+}
+</div>
