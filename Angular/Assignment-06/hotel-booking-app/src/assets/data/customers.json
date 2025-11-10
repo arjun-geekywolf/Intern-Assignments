@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "fullName": "John Smith",
+    "email": "john.smith@email.com",
+    "phoneNumber": "+1-555-0101",
+    "idproofNumber": "DL-123456789"
+  },
+  {
+    "id": 2,
+    "fullName": "Sarah Johnson",
+    "email": "sarah.johnson@email.com",
+    "phoneNumber": "+1-555-0102",
+    "idproofNumber": "PP-987654321"
+  },
+  {
+    "id": 3,
+    "fullName": "Michael Brown",
+    "email": "michael.brown@email.com",
+    "phoneNumber": "+1-555-0103",
+    "idproofNumber": "DL-456789123"
+  },
+  {
+    "id": 4,
+    "fullName": "Emily Davis",
+    "email": "emily.davis@email.com",
+    "phoneNumber": "+1-555-0104",
+    "idproofNumber": "PP-321654987"
+  },
+  {
+    "id": 5,
+    "fullName": "David Wilson",
+    "email": "david.wilson@email.com",
+    "phoneNumber": "+1-555-0105",
+    "idproofNumber": "DL-789123456"
+  }
+]

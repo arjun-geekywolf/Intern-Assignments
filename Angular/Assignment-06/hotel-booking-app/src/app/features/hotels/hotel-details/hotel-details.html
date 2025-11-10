@@ -1,0 +1,11 @@
+<div class="details-container">
+<div class="sidebar">
+    <a routerLink="rooms-list" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >Rooms</a>
+    <a routerLink="employees" routerLinkActive="active">Employees</a>
+    <a routerLink="reviews" routerLinkActive="active">Reviews</a>
+</div>
+
+<div class="content">
+    <router-outlet></router-outlet>
+</div>
+</div>

@@ -1,0 +1,67 @@
+:host{
+
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    text-align: center;
+    margin: 1rem;
+}
+.customers-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.customer-card{
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    h3 {
+        margin: 0.5rem 0;
+        font-size: 1.25rem;
+        color: #111827;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 0.9rem;
+        color: #6b7280;
+        margin: 0.4rem 0;
+        width: 100%;
+        text-align: left;
+        padding: 0 0.5rem;
+    }
+    button {
+        margin-top: 0.75rem;
+        padding: 0.5rem 1rem;
+        background-color: #4f84f6;
+        color: white;
+        border: none;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #3b6ed8;
+        }
+    }
+}

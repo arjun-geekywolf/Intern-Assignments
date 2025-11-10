@@ -1,0 +1,33 @@
+.room-card{
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    h3 {
+        margin: 0.5rem 0;
+        font-size: 1.25rem;
+        color: #111827;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 0.95rem;
+        color: #6b7280;
+        margin: 0.5rem 0;
+        width: 100%;
+    }
+}
