@@ -1,0 +1,38 @@
+:host {
+  display: flex;
+  flex: 1;
+}
+.details-container {
+  display: flex;
+  flex: 1;
+
+  .sidebar {
+    padding: 1rem 0;
+    border-right: 1px solid #e5e7eb;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    a {
+      text-decoration: none;
+      color: #111827;
+      font-weight: 500;
+      padding: 1rem;
+      border-bottom: 1px solid #e5e7eb;
+
+      &:hover {
+        background-color: rgb(89, 89, 235);
+        color: white;
+      }
+
+    }
+    .active {
+        background-color: rgb(89, 89, 235);
+        color: white;
+      }
+  }
+
+  .content {
+    flex: 1;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,13 @@
+<div class="rooms-list-container">
+  <h2>Rooms</h2>
+  <div class="rooms-card-container">
+    @for (item of rooms; track $index) {
+    <app-room-card 
+      [roomNumber]="item.roomNumber" 
+      [status]="item.status" 
+      [pricePerNight]="item.pricePerNight">
+    </app-room-card>
+
+    }
+  </div>
+</div>
