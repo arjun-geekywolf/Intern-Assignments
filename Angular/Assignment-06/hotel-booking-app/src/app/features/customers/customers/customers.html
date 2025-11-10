@@ -1,0 +1,13 @@
+<h2>Customers</h2>
+
+<div class="customers-container">
+  @for (item of customers; track $index) {
+    <app-customer-card (navigateUrl)="navigate($event) "
+      [id]="item.id"
+      [fullName]="item.fullName"
+      [email]="item.email"
+      [phoneNumber]="item.phoneNumber"
+      [idproofNumber]="item.idproofNumber">
+    </app-customer-card>
+  }
+</div>

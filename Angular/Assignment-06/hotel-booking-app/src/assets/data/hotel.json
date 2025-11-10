@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Hotel Sunshine",
+    "description": "A beautiful place to stay with sunshine all around.",
+    "imageUrl": "assets/hotel-images/hotel1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Mountain Retreat",
+    "description": "Experience tranquility in the mountains.",
+    "imageUrl": "assets/hotel-images/hotel2.jpg"
+  },
+    {
+        "id": 3,
+        "name": "City Lights Hotel",
+        "description": "Enjoy the vibrant city life from our hotel.",
+        "imageUrl": "assets/hotel-images/hotel3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Beach Side Resort",
+        "description": "Relax and unwind at our beachfront property.",
+        "imageUrl": "assets/hotel-images/hotel4.jpg"
+    }
+
+]
