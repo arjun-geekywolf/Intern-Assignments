@@ -4,7 +4,8 @@ using MathUtilities;
 
 MathUtility mathUtility = new MathUtility();
 
-int num = 3;
+Console.Write("Enter a number: ");
+int num = int.Parse(Console.ReadLine());
 
 Console.WriteLine($"{num} is " + (mathUtility.IsEven(num)?"Even":"Odd"));
 Console.WriteLine($"{num} is " + (mathUtility.IsPrime(num)?"Prime":"Not Prime"));
