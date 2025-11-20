@@ -73,7 +73,7 @@ namespace Assignment_06
 
             Employee emp = employees.Find(name => name.Name.ToLower() == key);
 
-            if (emp != null)
+            if (emp is not null)
             {
                 emp.Display();
             }
