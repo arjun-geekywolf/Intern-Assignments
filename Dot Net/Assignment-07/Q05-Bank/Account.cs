@@ -24,7 +24,7 @@ namespace Assignment_07.Q05_Bank
 
         public void Withdraw(double amount)
         {
-            if (balance > amount)
+            if (balance >= amount)
             {
                 balance -= amount;
                 Console.WriteLine($"{amount} withdrawed from savings");
@@ -51,7 +51,7 @@ namespace Assignment_07.Q05_Bank
 
         public void Withdraw(double amount)
         {
-            if (balance > amount)
+            if (balance >= amount)
             {
                 balance -= amount;
                 Console.WriteLine($"{amount} withdrawed from current");
