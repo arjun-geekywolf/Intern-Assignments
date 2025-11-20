@@ -15,7 +15,7 @@ namespace Assignment_07.Q05_Bank
 
     public class SavingsAccount:IAccount
         {
-        double balance = 0;
+        private double balance = 0;
         public void Deposit(double amount)
         {
             balance += amount;
@@ -42,7 +42,7 @@ namespace Assignment_07.Q05_Bank
 
     public class CurrentAccount : IAccount
     {
-        double balance = 0;
+        private double balance = 0;
         public void Deposit(double amount)
         {
             balance += amount;
