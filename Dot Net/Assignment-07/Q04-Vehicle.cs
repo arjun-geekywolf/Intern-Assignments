@@ -8,7 +8,7 @@ namespace Assignment_07
 {
     public class Vehicle
     {
-        public virtual void ShowType()
+        public void ShowType()
         {
             Console.WriteLine("This is a vehicle");
         }
