@@ -11,7 +11,7 @@ namespace Assignment_06
 
         public void generics()
         {
-           List<int> marks = new List<int>();
+           List<int> marks = new();
 
             marks.Add(78);
             marks.Add(92);
