@@ -10,7 +10,7 @@ namespace Assignment_06
     internal class Employee
     {
 
-        public String Id;
+        public string Id;
         public string Name;
         double Salary;
         string EmployeeType;
