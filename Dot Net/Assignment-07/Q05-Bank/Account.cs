@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_07.Q05_Bank
 {
-   interface IAccount
+   public interface IAccount
     {
         void Deposit(double amount);
         void Withdraw(double amount);
