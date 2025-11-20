@@ -8,8 +8,10 @@ namespace TempConverterLibrary
 {
     internal class TemparatureValidator
     {
+        const double AbsoluteZero = -273.15;
+        const double MaxTemperature = 5500;
         public bool Validate(double temp) {
-            if(temp < -273.15 || temp > 5500)
+            if(temp < AbsoluteZero || temp > MaxTemperature)
                 return false;
             return true;
         }
