@@ -36,6 +36,9 @@ namespace Assignment_06
                 Console.WriteLine(array[i]);
             }
 
+            Console.WriteLine("\nFinal List (foreach): \n");
+            printArray();
+
         }
 
         public void printArray()
