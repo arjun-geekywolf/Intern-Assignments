@@ -56,7 +56,7 @@ var customers = new List<Customer>
 };
 context.Customers.AddRange(customers);
 
-//context.SaveChanges();
+context.SaveChanges();
 
 
 AccountOperations operations = new AccountOperations();
