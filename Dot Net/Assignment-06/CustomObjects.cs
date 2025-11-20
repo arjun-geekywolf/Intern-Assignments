@@ -9,20 +9,20 @@ namespace Assignment_06
 
     public class Books
     {
-        public string title;
-        public string author;
-        public int price;
+        public string Title;
+        public string Author;
+        public int Price;
 
         public Books(string title, string author, int price)
         {
-            this.title = title;
-            this.author = author;
-            this.price = price;
+            this.Title = title;
+            this.Author = author;
+            this.Price = price;
         }
 
         public void BookDetails()
         {
-            Console.WriteLine($"Title: {title}\nAuthor: {author}\nPrice: {price}\n");
+            Console.WriteLine($"Title: {Title}\nAuthor: {Author}\nPrice: {Price}\n");
         }
     }
 
