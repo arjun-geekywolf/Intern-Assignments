@@ -20,10 +20,10 @@ namespace Assignment_06
             names.Add("Cersi");
 
             Console.WriteLine("All names");
-            display(names);
+            Display(names);
         }
 
-        public void display(List<string> str)
+        public void Display(List<string> str)
         {
             foreach (String name in str)
             {
@@ -32,20 +32,20 @@ namespace Assignment_06
         }
 
 
-        public void namesStartWithA()
+        public void NamesStartWithA()
         {
             List<String> namesStartWithA = names.Where(name => name.StartsWith("J")).ToList();
 
             Console.WriteLine("\nNames start with 'A'");
-            display(namesStartWithA);
+            Display(namesStartWithA);
         }
 
 
-        public void lengthGreaterThanFour()
+        public void LengthGreaterThanFour()
         {
             List<string> lengthGreaterThanFour = names.Where(name=>name.Length>4).ToList();
             Console.WriteLine("\nNames with Length Greater Than 4");
-            display(lengthGreaterThanFour);
+            Display(lengthGreaterThanFour);
         }
 
     }
