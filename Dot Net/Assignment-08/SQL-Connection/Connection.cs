@@ -13,7 +13,7 @@ namespace SQL_Connection
     {
         string connString = @"Data Source=localhost,1433;User ID=sa;Password=arjun@123;Trust Server Certificate=True";
 
-        public void InsertData()
+        public void InsertData(int id, string name, decimal salary)
         {
             using (SqlConnection connection = new SqlConnection(connString))
             {
@@ -23,17 +23,10 @@ namespace SQL_Connection
                     string insertQuery = "INSERT INTO Employee (Id, Name, Salary) VALUES (@Id, @Name, @Salary)";
                     using (SqlCommand command = new SqlCommand(insertQuery, connection))
                     {
-                        command.Parameters.AddWithValue("@Id", 101);
-                        command.Parameters.AddWithValue("@Name", "Arjun");
-                        command.Parameters.AddWithValue("@Salary", 20000);
+                        command.Parameters.AddWithValue("@Id", id);
+                        command.Parameters.AddWithValue("@Name", name);
+                        command.Parameters.AddWithValue("@Salary", salary);
                         int rowsAffected = command.ExecuteNonQuery();
-                        Console.WriteLine($"{rowsAffected} row added");
-
-                        command.Parameters.Clear();
-                        command.Parameters.AddWithValue("@Id", 102);
-                        command.Parameters.AddWithValue("@Name", "Anand");
-                        command.Parameters.AddWithValue("@Salary", 30000);
-                        rowsAffected = command.ExecuteNonQuery();
                         Console.WriteLine($"{rowsAffected} row added");
                     }
                 }
@@ -44,7 +37,7 @@ namespace SQL_Connection
             }
         }
 
-        public void UpdateData()
+        public void UpdateData(int id, string name, decimal salary)
         {
             using (SqlConnection connection = new SqlConnection(connString))
             {
@@ -54,9 +47,9 @@ namespace SQL_Connection
                     string updateQuery = "UPDATE Employee SET Name = @Name, Salary = @Salary WHERE Id = @Id";
                     using (SqlCommand command = new SqlCommand(updateQuery, connection))
                     {
-                        command.Parameters.AddWithValue("@Id", 101);
-                        command.Parameters.AddWithValue("@Name", "Arjun C Vinod");
-                        command.Parameters.AddWithValue("@Salary", 50000);
+                        command.Parameters.AddWithValue("@Id", id);
+                        command.Parameters.AddWithValue("@Name", name);
+                        command.Parameters.AddWithValue("@Salary", salary);
                         int rowsAffected = command.ExecuteNonQuery();
                         Console.WriteLine($"{rowsAffected} row updated");
                     }
@@ -68,7 +61,7 @@ namespace SQL_Connection
             }
         }
 
-        public void DeleteData()
+        public void DeleteData(int id)
         {
             using (SqlConnection connection = new SqlConnection(connString))
             {
@@ -78,7 +71,7 @@ namespace SQL_Connection
                     string deleteQuery = "DELETE FROM Employee WHERE Id = @Id";
                     using (SqlCommand command = new SqlCommand(deleteQuery, connection))
                     {
-                        command.Parameters.AddWithValue("@Id", 102);
+                        command.Parameters.AddWithValue("@Id", id);
                         int rowsAffected = command.ExecuteNonQuery();
                         Console.WriteLine($"{rowsAffected} row deleted");
                     }
