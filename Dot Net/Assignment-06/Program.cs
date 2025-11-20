@@ -57,7 +57,7 @@ using Assignment_06;
 //ListString listString = new ListString();
 
 //listString.namesStartWithA();
-//listString.lengthGreaterThan4();
+//listString.lengthGreaterThanFour();
 
 
 

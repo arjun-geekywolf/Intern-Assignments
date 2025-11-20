@@ -41,11 +41,11 @@ namespace Assignment_06
         }
 
 
-        public void lengthGreaterThan4()
+        public void lengthGreaterThanFour()
         {
-            List<string> lenthGreaterThan4 = names.Where(name=>name.Length>4).ToList();
+            List<string> lengthGreaterThanFour = names.Where(name=>name.Length>4).ToList();
             Console.WriteLine("\nNames with Length Greater Than 4");
-            display(lenthGreaterThan4);
+            display(lengthGreaterThanFour);
         }
 
     }
