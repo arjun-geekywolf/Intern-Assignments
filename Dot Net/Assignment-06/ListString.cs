@@ -34,7 +34,7 @@ namespace Assignment_06
 
         public void NamesStartWithA()
         {
-            List<String> namesStartWithA = names.Where(name => name.StartsWith("J")).ToList();
+            List<String> namesStartWithA = names.Where(name => name.StartsWith("A")).ToList();
 
             Console.WriteLine("\nNames start with 'A'");
             Display(namesStartWithA);
