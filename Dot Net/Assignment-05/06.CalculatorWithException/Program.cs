@@ -43,6 +43,10 @@ catch (DivideByZeroException ex)
 {
     Console.WriteLine(ex.Message);
 }
+finally
+{
+    Console.WriteLine("Calculation finished.");
+}
 
 
 
