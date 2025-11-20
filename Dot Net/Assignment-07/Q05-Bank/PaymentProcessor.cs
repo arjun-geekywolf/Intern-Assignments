@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_07.Q05_Bank
 {
-    internal class PaymentProcessor
+    private class PaymentProcessor
     {
         IPaymentService paymentService;
         public PaymentProcessor(IPaymentService service) {
