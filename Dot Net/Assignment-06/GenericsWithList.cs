@@ -20,9 +20,9 @@ namespace Assignment_06
             marks.Add(95);
 
             
-            double avg=marks.Average();
+            double average = marks.Average();
 
-            Console.WriteLine("Avg = "+avg);
+            Console.WriteLine("Avg = "+average);
 
             marks.Remove(marks.Min());
             
