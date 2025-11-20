@@ -12,8 +12,8 @@ namespace Assignment_06
 
         public string Id;
         public string Name;
-        double Salary;
-        string EmployeeType;
+        public double Salary;
+        public string EmployeeType;
         static int counter = 1000;
 
     
