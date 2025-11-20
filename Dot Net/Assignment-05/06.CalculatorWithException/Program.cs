@@ -4,6 +4,12 @@ int num1, num2;
 Console.WriteLine("Enter two numbers: ");
 Calculator calculator = new Calculator();
 
+void LogError(string message)
+{
+    Console.WriteLine($"Error: {message}");
+}
+
+
 try
 {
     num1 = Convert.ToInt32(Console.ReadLine());
@@ -33,15 +39,15 @@ try
 }
 catch(System.FormatException)
 {
-    Console.WriteLine("Enter Number in correct format");
+    LogError("Enter Number in correct format");
 }
 catch (System.OverflowException)
 {
-    Console.WriteLine("Entered number is too small or large");
+    LogError("Entered number is too small or large");
 }
 catch (DivideByZeroException ex)
 {
-    Console.WriteLine(ex.Message);
+    LogError(ex.Message);
 }
 finally
 {
