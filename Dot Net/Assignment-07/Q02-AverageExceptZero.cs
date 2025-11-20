@@ -21,9 +21,7 @@ namespace Assignment_07
                 count++;
             }
 
-            if(count==0)
-                return 0;
-            return (double)sum / count;
+            return count == 0 ? 0 : (double)sum / count;
         }
     }
 
