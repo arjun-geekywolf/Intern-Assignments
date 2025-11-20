@@ -22,13 +22,9 @@ namespace CalculatorWithException
                 }
 
         public void Div(int num1, int num2) {
-            try
-            {
-                Console.WriteLine($"num1/num2 = {num1 / num2}");
-            }
-            catch (System.DivideByZeroException) {
-                Console.WriteLine("Division by zero is not possible");
-                }
+            if (num2 == 0)
+                throw new DivideByZeroException("Division by zero is not possible");
+            Console.WriteLine($"num1/num2 = {num1 / num2}");
         }
     }
 }

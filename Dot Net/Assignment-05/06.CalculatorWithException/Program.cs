@@ -39,6 +39,10 @@ catch (System.OverflowException)
 {
     Console.WriteLine("Entered number is too small or large");
 }
+catch (DivideByZeroException ex)
+{
+    Console.WriteLine(ex.Message);
+}
 
 
 
