@@ -90,7 +90,7 @@ namespace SQL_Connection
                 try
                 {
                     connection.Open();
-                    string selectQuery = "SELECT Id, Name, Salary FROM Employee";
+                    string selectQuery = "SELECT * FROM Employee";
                     using (SqlCommand command = new SqlCommand(selectQuery, connection))
                     {
                         using (SqlDataReader reader = command.ExecuteReader())
