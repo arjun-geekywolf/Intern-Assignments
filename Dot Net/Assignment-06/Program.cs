@@ -1,63 +1,63 @@
 ﻿
 using Assignment_06;
 //-----------------------Question 1-----------------------
-//ArrayListOperations arrayListOperations = new ArrayListOperations();
-//arrayListOperations.operations();
+ArrayListOperations arrayListOperations = new ArrayListOperations();
+arrayListOperations.operations();
 
 
 //-----------------------Question 2-----------------------
-//MixedDataTypes mixedDataTypes = new MixedDataTypes();
-//mixedDataTypes.mixed();
+MixedDataTypes mixedDataTypes = new MixedDataTypes();
+mixedDataTypes.mixed();
 
 
 //-----------------------Question 3-----------------------
-//GenericsWithList genericsWithList = new GenericsWithList();
-//genericsWithList.generics();
+GenericsWithList genericsWithList = new GenericsWithList();
+genericsWithList.generics();
 
 
 //-----------------------Question 4-----------------------
-//Books book1 = new Books("title1","author1",100);
-//Books book2 = new Books("title2", "author2", 500);
-//Books book3 = new Books("title3", "author3", 300);
+Books book1 = new Books("title1","author1",100);
+Books book2 = new Books("title2", "author2", 500);
+Books book3 = new Books("title3", "author3", 300);
 
-//List<Books> books= new List<Books>();
+List<Books> books= new List<Books>();
 
-//books.Add(book1);
-//books.Add(book2);
-//books.Add(book3);
+books.Add(book1);
+books.Add(book2);
+books.Add(book3);
 
-//Console.WriteLine("All books");
-//foreach(Books book in books)
-//{
-//    book.BookDetails();
-//}
+Console.WriteLine("All books");
+foreach(Books book in books)
+{
+   book.BookDetails();
+}
 
-//Books expensiveBook = books.OrderByDescending(book=>book.price).FirstOrDefault();
-
-
-//Console.WriteLine("\nBook with the highest Price");
-//expensiveBook.BookDetails();
-
-//Books bookToRemove = books.FirstOrDefault(books => books.title == "title1");
-
-//books.Remove(bookToRemove);
-//Console.WriteLine("Book Removed");
+Books expensiveBook = books.OrderByDescending(book=>book.price).FirstOrDefault();
 
 
-//Console.WriteLine("\nBooks after removal");
-//foreach (Books book in books)
-//{
-//    book.BookDetails();
-//}
+Console.WriteLine("\nBook with the highest Price");
+expensiveBook.BookDetails();
+
+Books bookToRemove = books.FirstOrDefault(books => books.title == "title1");
+
+books.Remove(bookToRemove);
+Console.WriteLine("Book Removed");
+
+
+Console.WriteLine("\nBooks after removal");
+foreach (Books book in books)
+{
+   book.BookDetails();
+}
 
 
 
 //-----------------------Question 5-----------------------
 
-//ListString listString = new ListString();
+ListString listString = new ListString();
 
-//listString.namesStartWithA();
-//listString.lengthGreaterThanFour();
+listString.namesStartWithA();
+listString.lengthGreaterThanFour();
 
 
 
