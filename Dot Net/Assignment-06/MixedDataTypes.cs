@@ -12,7 +12,7 @@ namespace Assignment_06
         ArrayList array = new ArrayList();
         public void mixed()
         {
-            array.Add("john");
+            array.Add("John");
             array.Add(25);
             array.Add(75.5);
             array.Add(true);
