@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics.Metrics;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assignment_06
+{
+    internal class Employee
+    {
+
+        public string Id;
+        public string Name;
+        public double Salary;
+        public string EmployeeType;
+        static int counter = 1000;
+
+    
+    
+        public Employee(string name, double salary, string employeeType)
+        {
+            Id = "EMP"+counter++ ;
+            Name = name;
+            Salary = salary;
+            EmployeeType = employeeType;
+        }
+
+
+        public void Display()
+        {
+            Console.WriteLine($"ID: {Id}\nName: {Name}\nSalary: {Salary}\nType: {EmployeeType}\n\n");
+        }
+    }
+}
