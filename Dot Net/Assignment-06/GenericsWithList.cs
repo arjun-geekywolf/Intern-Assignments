@@ -11,13 +11,7 @@ namespace Assignment_06
 
         public void generics()
         {
-           List<int> marks = new();
-
-            marks.Add(78);
-            marks.Add(92);
-            marks.Add(67);
-            marks.Add(88);
-            marks.Add(95);
+           List<int> marks = new() { 78, 92, 67, 88, 95 };
 
             
             double average = marks.Average();
