@@ -1,0 +1,11 @@
+C:\Users\arjun.c\source\repos\TempConverter\TempConverterLibrary\obj\Debug\net8.0\TempConverterLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arjun.c\source\repos\TempConverter\TempConverterLibrary\obj\Debug\net8.0\TempConverterLibrary.AssemblyInfoInputs.cache
+C:\Users\arjun.c\source\repos\TempConverter\TempConverterLibrary\obj\Debug\net8.0\TempConverterLibrary.AssemblyInfo.cs
+C:\Users\arjun.c\source\repos\TempConverter\TempConverterLibrary\obj\Debug\net8.0\TempConverterLibrary.csproj.CoreCompileInputs.cache
+C:\Users\arjun.c\source\repos\TempConverter\TempConverterLibrary\bin\Debug\net8.0\TempConverterLibrary.deps.json
+C:\Users\arjun.c\source\repos\TempConverter\TempConverterLibrary\bin\Debug\net8.0\TempConverterLibrary.dll
+C:\Users\arjun.c\source\repos\TempConverter\TempConverterLibrary\bin\Debug\net8.0\TempConverterLibrary.pdb
+C:\Users\arjun.c\source\repos\TempConverter\TempConverterLibrary\obj\Debug\net8.0\TempConverterLibrary.dll
+C:\Users\arjun.c\source\repos\TempConverter\TempConverterLibrary\obj\Debug\net8.0\refint\TempConverterLibrary.dll
+C:\Users\arjun.c\source\repos\TempConverter\TempConverterLibrary\obj\Debug\net8.0\TempConverterLibrary.pdb
+C:\Users\arjun.c\source\repos\TempConverter\TempConverterLibrary\obj\Debug\net8.0\ref\TempConverterLibrary.dll

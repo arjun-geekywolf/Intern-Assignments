@@ -1,0 +1,14 @@
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\bin\Debug\net8.0\CalculatorWithException.exe
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\bin\Debug\net8.0\CalculatorWithException.deps.json
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\bin\Debug\net8.0\CalculatorWithException.runtimeconfig.json
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\bin\Debug\net8.0\CalculatorWithException.dll
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\bin\Debug\net8.0\CalculatorWithException.pdb
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\obj\Debug\net8.0\CalculatorWithException.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\obj\Debug\net8.0\CalculatorWithException.AssemblyInfoInputs.cache
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\obj\Debug\net8.0\CalculatorWithException.AssemblyInfo.cs
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\obj\Debug\net8.0\CalculatorWithException.csproj.CoreCompileInputs.cache
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\obj\Debug\net8.0\CalculatorWithException.dll
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\obj\Debug\net8.0\refint\CalculatorWithException.dll
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\obj\Debug\net8.0\CalculatorWithException.pdb
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\obj\Debug\net8.0\CalculatorWithException.genruntimeconfig.cache
+C:\Users\arjun.c\source\repos\TempConverter\CalculatorWithException\obj\Debug\net8.0\ref\CalculatorWithException.dll
